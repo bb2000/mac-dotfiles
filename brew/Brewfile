@@ -1,0 +1,26 @@
+# Bootstraping
+tap 'homebrew/cask'
+tap 'homebrew/bundle'
+brew 'git'
+brew 'stow'
+
+# General Applications
+cask 'google-chrome'
+cask 'firefox'
+cask '1Password'
+cask 'slack'
+cask 'spectacle'
+cask 'zoomus'
+cask 'clockify'
+cask 'spotify'
+
+# Developer Tools
+cask 'hyper'
+cask 'fork'
+cask 'visual-stuido-code'
+cask 'insomnia'
+cask 'abstract'
+
+# JS Dev Tools
+brew 'node'
+brew 'yarn'
