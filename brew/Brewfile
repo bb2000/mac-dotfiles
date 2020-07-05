@@ -7,19 +7,33 @@ brew 'stow'
 # General Applications
 cask 'google-chrome'
 cask 'firefox'
-cask '1Password'
 cask 'slack'
-cask 'spectacle'
 cask 'zoomus'
 cask 'clockify'
-cask 'spotify'
+cask 'openvpn-connect'
 
 # Developer Tools
-cask 'hyper'
 cask 'fork'
-cask 'visual-stuido-code'
+cask 'visual-studio-code'
 cask 'insomnia'
-cask 'abstract'
+cask 'postman'
+cask 'alacritty'
+cask 'java'
+brew 'awscli'
+brew 'terraform'
+
+# Docker Tools
+cask 'docker'
+brew 'dive'
+
+# Command Line Tools
+brew 'htop'
+brew 'rg'
+brew 'exa'
+brew 'jq'
+
+# SQL Tools
+cask 'tableplus'
 
 # JS Dev Tools
 brew 'node'
