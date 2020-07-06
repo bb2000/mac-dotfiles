@@ -1,0 +1,84 @@
+# Sets the background opacity
+background_opacity: 0.9
+
+# Set window settings
+window:
+  decorations: buttonless 
+  startup_mode: Maximized
+
+  padding:
+    x: 8
+    y: 8
+
+
+# Colors (Tomorrow Night)
+colors:
+  # Default colors
+  primary:
+    background: '#1d1f21'
+    foreground: '#c5c8c6'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '#1d1f21'
+    cursor: '#ffffff'
+
+  # Normal colors
+  normal:
+    black:   '#1d1f21'
+    red:     '#cc6666'
+    green:   '#b5bd68'
+    yellow:  '#e6c547'
+    blue:    '#81a2be'
+    magenta: '#b294bb'
+    cyan:    '#70c0ba'
+    white:   '#373b41'
+
+  # Bright colors
+  bright:
+    black:   '#666666'
+    red:     '#ff3334'
+    green:   '#9ec400'
+    yellow:  '#f0c674'
+    blue:    '#81a2be'
+    magenta: '#b77ee0'
+    cyan:    '#54ced6'
+    white:   '#282a2e'
+
+# Font Settings
+font:
+  # The normal (roman) font face to use.
+  normal:
+    family: FiraCode Nerd Font # should be "Menlo" or something on macOS.
+    style: Regular
+ 
+  # The bold font face
+  bold:
+    family: FiraCode Nerd Font # should be "Menlo" or something on macOS.
+    style: Bold
+ 
+  # The italic font face
+  italic:
+    family: FiraCode Nerd Font # should be "Menlo" or something on macOS.
+    style: Italic
+ 
+  # Point size of the font
+  size: 11
+ 
+  # Offset is the extra space around each character. offset.y can be thought of
+  # as modifying the linespacing, and offset.x as modifying the letter spacing.
+  offset:
+    x: 0
+    y: 0
+ 
+  # Glyph offset determines the locations of the glyphs within their cells with
+  # the default being at the bottom. Increase the x offset to move the glyph to
+  # the right, increase the y offset to move the glyph upward.
+  glyph_offset:
+    x: 0
+    y: 0
+ 
+  # OS X only: use thin stroke font rendering. Thin strokes are suitable
+  # for retina displays, but for non-retina you probably want this set to
+  # false.
+  use_thin_strokes: true
