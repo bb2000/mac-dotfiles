@@ -1,1 +1,3 @@
 brew/Brewfile.lock.json
+htop/htoprc
+configstore/update-notifier-npm.json

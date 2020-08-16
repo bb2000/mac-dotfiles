@@ -3,6 +3,8 @@ tap 'homebrew/cask'
 tap 'homebrew/bundle'
 brew 'git'
 brew 'stow'
+brew 'mas'
+brew 'reattach-to-user-namespace'
 
 # General Applications
 cask 'google-chrome'
@@ -11,6 +13,16 @@ cask 'slack'
 cask 'zoomus'
 cask 'clockify'
 cask 'openvpn-connect'
+cask 'alfred'
+cask 'discord'
+cask 'microsoft-teams'
+
+# Mac App Store Applications
+mas 'Todoist', id: 585829637
+mas 'Microsoft Word', id: 462054704
+mas 'Microsoft Powerpoint', id: 462062816
+mas 'Microsoft Excel', id: 462058435
+mas 'OneDrive', id:823766827
 
 # Developer Tools
 cask 'fork'
@@ -19,8 +31,11 @@ cask 'insomnia'
 cask 'postman'
 cask 'alacritty'
 cask 'java'
+cask 'dash'
 brew 'awscli'
 brew 'terraform'
+brew 'neovim'
+brew 'tmux'
 
 # Docker Tools
 cask 'docker'
@@ -39,6 +54,9 @@ cask 'tableplus'
 # JS Dev Tools
 brew 'node'
 brew 'yarn'
+
+# Java Dev Tools
+brew 'jhipster'
 
 # Fonts
 tap 'homebrew/cask-fonts'

@@ -82,3 +82,11 @@ font:
   # for retina displays, but for non-retina you probably want this set to
   # false.
   use_thin_strokes: true
+
+# Launch Tmux on launch
+shell:
+  program: /bin/zsh
+  args:
+    - -l
+    - -c
+    - "tmux attach -t 0 || tmux"

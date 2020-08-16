@@ -5,10 +5,18 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+# Set XDG Config Home to dotfiles directory (enable config for apps which respect XDG)
 export XDG_CONFIG_HOME=~/mac-dotfiles
 
+# Source Antibody plugins
 source <(antibody init)
 antibody bundle < ~/.zsh_plugins.txt
+
+# Set neovim as the default editor and alias vim to neovim
+export EDITOR=nvim
+alias vim='nvim'
+
+alias ls='exa'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
