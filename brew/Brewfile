@@ -23,7 +23,7 @@ mas 'Microsoft Word', id: 462054704
 mas 'Microsoft Powerpoint', id: 462062816
 mas 'Microsoft Excel', id: 462058435
 mas 'OneDrive', id:823766827
-mas 'Texpad : LaTeX editor', id: 458866234
+mas 'Texpad', id: 458866234
 
 # Developer Tools
 cask 'fork'
