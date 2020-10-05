@@ -20,6 +20,10 @@ Assuming this is running on an account which has "purchased" all the apps I use,
 - Give Alfred required permissions
 - Set Alfred main shortcut to Cmd+Space
 
+## Change Caps Lock to Escape
+
+- Use `Keyboard Settings` for each keyboard (in-built, BT, etc.)
+
 ## How to Upgrade Everything
 
 - `brew update`

@@ -23,6 +23,7 @@ mas 'Microsoft Word', id: 462054704
 mas 'Microsoft Powerpoint', id: 462062816
 mas 'Microsoft Excel', id: 462058435
 mas 'OneDrive', id:823766827
+mas 'Texpad : LaTeX editor', id: 458866234
 
 # Developer Tools
 cask 'fork'
@@ -30,9 +31,10 @@ cask 'visual-studio-code'
 cask 'insomnia'
 cask 'postman'
 cask 'alacritty'
-cask 'java'
+brew 'openjdk'
 cask 'dash'
 brew 'awscli'
+brew 'awsebcli'
 brew 'terraform'
 brew 'neovim'
 brew 'tmux'
@@ -57,6 +59,7 @@ brew 'yarn'
 
 # Java Dev Tools
 brew 'jhipster'
+brew 'kotlin'
 
 # Fonts
 tap 'homebrew/cask-fonts'

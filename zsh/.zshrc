@@ -8,6 +8,9 @@ fi
 # Set XDG Config Home to dotfiles directory (enable config for apps which respect XDG)
 export XDG_CONFIG_HOME=~/mac-dotfiles
 
+# Set OpenJDK on PATH
+export PATH="/usr/local/opt/openjdk/bin:$PATH"
+
 # Source Antibody plugins
 source <(antibody init)
 antibody bundle < ~/.zsh_plugins.txt
